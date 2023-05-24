@@ -1,0 +1,11 @@
+# Program to find the square of lists 
+
+def square_of_lists(l1):
+    square_sum = 0 
+    for i in l1:
+        square_sum += (int(i) * int(i)) 
+    return square_sum
+
+l1 = [1,2,3,4,5]
+sum_of_sqrs = square_of_lists(l1)
+print(sum_of_sqrs)

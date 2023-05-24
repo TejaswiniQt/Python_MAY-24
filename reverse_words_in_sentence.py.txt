@@ -1,0 +1,8 @@
+# Reverse the words in sentence 
+
+string=input().split()
+rev_word=[]
+for i in string:
+    rev_word.append(i[::-1])
+out=" ".join(rev_word)
+print(out)
